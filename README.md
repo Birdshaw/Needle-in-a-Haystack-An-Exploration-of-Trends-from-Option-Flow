@@ -9,7 +9,7 @@ An exploratory data analysis of stock option flow to find possible trends regard
 
 
 ---
-** Project Overview **
+**Project Overview**
 ---
 
 Dataset:

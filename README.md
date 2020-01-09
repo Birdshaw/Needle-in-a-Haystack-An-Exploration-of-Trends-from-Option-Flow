@@ -30,7 +30,7 @@ The traditional stock time and price datasets were pulled from https://www.barch
 **EDA Plots**
 ---
 
-*Data to be analyzed for correlation by exploring relationship between a stock options expiration date, strike price, and volume. Important points are the peaks on this graph and where they correspond to date and price.
+*Data to be analyzed for correlation by exploring relationship between a stock options expiration date, strike price, and volume. Important points are the peaks on this graph and where they correspond to date and price.*
  
  ![Option flow plot for a day](/img/tsla0116flow.png)
  

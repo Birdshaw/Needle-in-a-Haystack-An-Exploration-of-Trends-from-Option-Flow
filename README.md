@@ -62,7 +62,7 @@ The traditional stock time and price datasets were pulled from https://www.barch
 
 ![](/img/HD_Summary_2018.png)
 
-![](/img/JPM_Summry_2018.png)
+![](/img/JPM_Summary_2018.png)
 
 ![](/img/SHOP_Summary_2018.png)
 

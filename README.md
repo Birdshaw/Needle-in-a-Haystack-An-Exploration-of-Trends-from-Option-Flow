@@ -13,10 +13,10 @@ However, with the improved technology that retail investors (us normal people) h
 In its place their exists another kind of volome to explore called option volume or option flow. This data is something that is not readily available or utilized but can hold the same power as traditional stock volume. The goal of this project is to explore what trends can be seen in stock option flow and discern any correlations their may be to future stock movement. 
 
 ---
-**Project Overview**
+**Project Overview:**
 ---
 
-Dataset:
+*Dataset:*
 
 The dataset for stock option flow used came from the website https://www.discountoptiondata.com. I used the stock option flow dataset for 2018. It consists of an aggregate of all stocks daily option volume data related to its strike price and expiration date. 
 

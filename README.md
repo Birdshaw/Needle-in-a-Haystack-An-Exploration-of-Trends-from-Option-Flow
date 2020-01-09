@@ -7,7 +7,9 @@ An exploratory data analysis of stock option flow to find possible trends regard
 ---
 
 In the past as it is today, institutional investors are able to hide their trades from the general public. However it was discovered that by looking at the volume of a stock one could ascertain where those investors were putting their money and in turn get an idea of potential future market trends. 
+
 However, with the improved technology that retail investors (us normal people) have to work with, the ways in which they must hide their trades have increased. As such, the ability for traditional stock volume to be an indicator for institutional investing movement and insight has decreased. 
+
 In its place their exists another kind of volome to explore called option volume or option flow. This data is something that is not readily available or utilized but can hold the same power as traditional stock volume. The goal of this project is to explore what trends can be seen in stock option flow and discern any correlations their may be to future stock movement. 
 
 ---
@@ -20,14 +22,18 @@ The dataset for stock option flow used came from the website https://www.discoun
 
 The traditional stock time and price datasets were pulled from https://www.barchart.com. Which allows you to pick stocks at will and download a stocks minute, hourly, or daily data for any specified time period. For this project I used the dialy 2018 time period to coincide with the aforementioned option flow data.
 
-| File Name | Number of Entries | Attributes |
-| --------------- | ---------------| ------------------------------------------------------------|
-| 2018.csv | 132,046,568 | optionkey, Symbol, ExpirationDate, AskPrice, AskSize, BidPrice, BidSize, LastPrice, PutCall, StrikePrice, Volume, openinterest, underlyingPrice, DataDate |
-| checkin.json | 161950 | business_id, dates |
-| photo.json | 200000 | caption, label |
-| review.json | 5376719 | review_id, user_id, business_id, stars, useful, funny, cool, text, date |
-| tip.json | 1223094 | text, date, compliment_count |
+| File/Folder Name | Number of Entries | Attributes | Notes |
+| --------------- | ---------------| ------------------------------------------------------------| ----------|
+| 2018/ | 132,046,568 | optionkey, Symbol, ExpirationDate, AskPrice, AskSize, BidPrice, BidSize, LastPrice, PutCall, StrikePrice, Volume, openinterest, underlyingPrice, DataDate | Data split into .csv's by month of the year
+| <stock>.csv | 642 | Date Time, Open, High, Low, Close, Change, Volume | Used multiple different stock datasets but all have identical number of entries and attributes. |
 
+**EDA Plots**
+---
+
+ *Example exmaple
+ 
+ ![Option flow plot for a day](/img/tsla0116.png)
+ 
 
 
 

@@ -30,7 +30,7 @@ The traditional stock time and price datasets were pulled from https://www.barch
 **EDA Plots**
 ---
 
- *Example exmaple
+ *Example example
  
  ![Option flow plot for a day](/img/tsla0116.png)
  

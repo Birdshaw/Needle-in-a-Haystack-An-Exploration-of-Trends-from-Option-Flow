@@ -30,6 +30,8 @@ The traditional stock time and price datasets were pulled from https://www.barch
 **EDA Plots**
 ---
 
+`NOTE` Success means that by placing a trade due to the identified peak volume and selling by either same-day or by its corresponding expiration date, one would have made money. Successes are diplayed as red on 3D barcharts and failures green.
+
 *Visual example data to be analyzed for correlation by exploring relationship between a stock options expiration date, strike price, and volume. Important points are the peaks on this graph and where they correspond to date and price.*
  
  ![Option flow plot for a day](/img/tsla0116flow.png)

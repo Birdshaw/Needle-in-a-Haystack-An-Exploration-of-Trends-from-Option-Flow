@@ -30,11 +30,43 @@ The traditional stock time and price datasets were pulled from https://www.barch
 **EDA Plots**
 ---
 
-*Data to be analyzed for correlation by exploring relationship between a stock options expiration date, strike price, and volume. Important points are the peaks on this graph and where they correspond to date and price.*
+*Visual example data to be analyzed for correlation by exploring relationship between a stock options expiration date, strike price, and volume. Important points are the peaks on this graph and where they correspond to date and price.*
  
  ![Option flow plot for a day](/img/tsla0116flow.png)
  
+*Correlate these peaks in stock option flow to either its corresponding day or expiration date as seen below.*
 
+![](/img/exp_tsla_with_price.png)
+
+*From here we can visualize the number of potential successful trades per month based on top two highest volume peaks. Below are the successes (in red) and failures (in green) of potential trades for Telsa and Netflix.*
+
+![](/img/tsla_Jan_peak_option.png)
+
+![](/img/nflx_Jan_peak_option.png)
+
+*To expand the analysis a view of the year as a whole is in order by both daily and expiration date sell for various stocks. These display the total number of successful trades and the percentage of successful trades in each month.*
+
+![](/img/NFLX_Summary_2018.png)
+
+![](/img/AMD_Summary_2018.png)
+
+![](/img/FB_Summary_2018.png)
+
+![](/img/BA_Summary_2018.png)
+
+![](/img/BABA_Summary_2018.png)
+
+![](/img/DIS_Summary_2018.png)
+
+![](/img/GOOGL_Summary_2018.png)
+
+![](/img/HD_Summary_2018.png)
+
+![](/img/JPM_Summry_2018.png)
+
+![](/img/SHOP_Summary_2018.png)
+
+![](/img/WYNN_Summary_2018.png)
 
 
 
